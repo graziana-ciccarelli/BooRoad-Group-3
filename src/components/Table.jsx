@@ -1,4 +1,4 @@
-export default function Table(props) {
+export default function Table (props) {
     const { utente } = props
     const { nome, cognome, codiceFiscale, telefono, email, img } = utente
     

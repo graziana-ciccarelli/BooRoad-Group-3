@@ -17,7 +17,7 @@ export default function HomePage() {
                     </div>
                     <div className="Guide" >
                         <Link to={"/guide"}>
-                            <h1>Elenco guide</h1>
+                            <h1>Elenco guide viggio</h1>
                         </Link>
                     </div>
                     <div className="Porfili" >
