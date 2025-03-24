@@ -44,13 +44,13 @@ body, html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/ Contenitore icona e campo input /
+ /* Contenitore icona e campo input  */
 .input-container {
     position: relative;
     width: 100%;
 }
 
-/ icone /
+ /* icone  */
 .input-container i {
     position: absolute;
     left: 10px;
@@ -74,7 +74,7 @@ input:focus {
     border-color: #E63946;
 }
 
-/ Bottone invio */
+/* Bottone invio */
 button {
     width: 100%;
     padding: 14px;
