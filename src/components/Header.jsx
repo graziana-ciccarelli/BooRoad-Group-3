@@ -1,6 +1,6 @@
-export default Header(){
+export default function Header () {
     return (
-        <header class="header">
+        <header className="header">
             <h1><span class="brand-name">Boo</span>Road</h1>
         </header>
     )
