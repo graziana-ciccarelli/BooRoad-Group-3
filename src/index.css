@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: lightblue;
+    color: #333;
+    height: 100%;
+}
+
+.header {
+    background-color: #1D3557;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.brand-name {
+    color: #E63946;
+}
+
+ /* Contenitore form login */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    text-align: left;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.login-container h2 {
+    color: #1D3557;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/ Contenitore icona e campo input /
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+/ icone /
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: black;
+}
+
+input {
+    width: 100%;
+    padding: 12px 12px 12px 40px; 
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #E63946;
+}
+
+/ Bottone invio */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: red;
+}
