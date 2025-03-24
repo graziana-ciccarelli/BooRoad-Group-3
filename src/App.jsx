@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route Component={DefaultLayout}>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<LoginPage />} />
           <Route path="/contatti" element={<ContattiPage />} />
           <Route path="/viaggi" element={<ViaggiPage />} />
         </Route>

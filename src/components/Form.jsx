@@ -42,7 +42,7 @@ const LoginForm = () => {
     
     if (foundGuide) {
       // Login riuscito - reindirizza alla home
-      navigate('/');
+      navigate('/home');
     } else {
       setError('Nome utente o password non corretti');
     }
