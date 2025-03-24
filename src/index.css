@@ -90,3 +90,14 @@ button {
 button:hover {
     background-color: red;
 }
+
+/* error */
+.error-message {
+    color: red;
+    background-color: #ffeeee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ffcccc;
+  }
+  
