@@ -22,7 +22,7 @@ export default function HomePage() {
                     </div>
                     <div className="Porfili" >
                         <Link to={"/profilo"}>
-                            <h1>Modifica Profilo</h1>
+                            <h1>Profilo</h1>
                         </Link>
                     </div>
                 </div>
