@@ -10,10 +10,14 @@ body, html {
 .header {
     background-color: #1D3557;
     padding: 20px;
-    text-align: center;
     color: white;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .header h1 {
     font-size: 36px;
     margin: 0;
@@ -75,7 +79,7 @@ input:focus {
 }
 
 /* Bottone invio */
-button {
+.form_button {
     width: 100%;
     padding: 14px;
     background-color: #D32F2F;
@@ -87,7 +91,7 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.form_button:hover {
     background-color: red;
 }
 
