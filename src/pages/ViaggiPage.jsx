@@ -18,6 +18,7 @@ export default function ViaggiPage() {
 
     return (
         <>
+        <div className="container-viaggi">
             <div className="search">
                 <h2>Ricerca utente</h2>
                 <input
@@ -54,8 +55,6 @@ export default function ViaggiPage() {
             </div>
             <h2>Viaggi Programmati</h2>
             <div className="table-responsive">
-
-            
             <table>
                 <thead>
                     <tr>
@@ -77,6 +76,7 @@ export default function ViaggiPage() {
             {filteredViaggi.length === 0 && (
                 <p>Nessun risultato trovato</p>
             )}
+            </div>
         </>
     );
 }

@@ -20,6 +20,7 @@ export default function ContattiPage() {
 
     return (
         <>
+        <div className="container-contatti">
             <div className="search">
                 <h2>Ricerca utente</h2>
                 <input 
@@ -29,7 +30,8 @@ export default function ContattiPage() {
                     onChange={handleSearch} 
                 />
             </div>
-            <table className="row">
+            <div className="table-responsive">
+            <table>
                 <thead>
                     <tr>
                         <th>Foto</th>
@@ -46,9 +48,11 @@ export default function ContattiPage() {
                     ))}
                 </tbody>
             </table>
+            </div>
             {filteredUsers.length === 0 && (
                 <p>Nessun risultato trovato</p>
             )}
+            </div>
         </>
     );
 }

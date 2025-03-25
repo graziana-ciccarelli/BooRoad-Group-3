@@ -9,10 +9,10 @@ export default function ProfiloPage() {
                     <hr/>
                     <section class="personal-info">
                         <h2>Informazioni Personali</h2>
-                        <p><strong>Nome:</strong> Maria</p>
+                        <p><strong>Nome:</strong> Mario</p>
                         <p><strong>Cognome:</strong> Rossi</p>
                         <p><strong>Telefono:</strong> +39 123 456 789</p>
-                        <p><strong>Email:</strong> maria.rossi@email.com</p>
+                        <p><strong>Email:</strong> mario.rossi@email.com</p>
                         <div className="button-mod"><button><i class="fa-solid fa-gear"></i> Modifica Dati</button></div>
                         
                     </section>

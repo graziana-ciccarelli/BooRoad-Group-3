@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -13,11 +14,12 @@ body, html {
     color: white;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header h1 {
     font-size: 36px;
     margin: 0;
@@ -27,7 +29,7 @@ nav{
     color: #E63946;
 }
 
- /* Contenitore form login */
+/* Contenitore form login */
 .login-container {
     background-color: white;
     padding: 40px;
@@ -38,6 +40,7 @@ nav{
     text-align: left;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5) 
 }
 
 .login-container h2 {
@@ -48,13 +51,13 @@ nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
- /* Contenitore icona e campo input  */
+/* Contenitore icona e campo input  */
 .input-container {
     position: relative;
     width: 100%;
 }
 
- /* icone  */
+/* icone  */
 .input-container i {
     position: absolute;
     left: 10px;
@@ -66,7 +69,7 @@ nav{
 
 input {
     width: 100%;
-    padding: 12px 12px 12px 40px; 
+    padding: 12px 12px 12px 40px;
     margin: 12px 0;
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -103,52 +106,59 @@ input:focus {
     border-radius: 4px;
     margin-bottom: 15px;
     border: 1px solid #ffcccc;
-  }
-  
-.City{
+}
+
+.City {
     background-image: url('https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto');
     background-repeat: no-repeat;
     background-size: cover;
     height: 30vh;
-    background-position:center;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.text{
+
+.text {
     margin: 0;
     font-size: 6rem;
     color: white;
     text-shadow: 6px 6px black;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-header h1{
+
+header h1 {
     color: white;
 }
-.d-none{
+
+.d-none {
     display: none;
 }
-.City-profile{
+
+.City-profile {
     background-image: url('https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto');
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
-    background-position:center;
+    background-position: center;
     display: flex;
     align-items: end;
     justify-content: center;
 
 
 }
-picture img{
+
+picture img {
     box-shadow: 15px 15px;
     width: 300px;
 }
-.profile-container{
+
+.profile-container {
     max-width: 1200px;
     margin: 0 auto;
     width: 80%;
@@ -156,28 +166,124 @@ picture img{
     border: 1px solid black;
     padding: 10px;
     border-radius: 12px;
-    margin-top:20px ;
+    margin-top: 20px;
 }
-.button-mod{
-text-align: end;
+
+.button-mod {
+    text-align: end;
+    cursor: pointer;
 }
+.button-mod button {
+    cursor: pointer;
+}
+
+
 .button-mod button {
     border-radius: 16px;
     padding: 10px 10px;
 }
+
 .table-responsive {
     overflow-x: auto;
     width: 100%;
 }
 
-@media (max-width: 393px) {
+
+
+header button {
+    border-radius: 16px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.2rem;
+}
+.card {
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 36px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5) 
+}
+.logout{
+    margin-left:10px ;
+}
+nav button:hover{
+    background-color: #bad3e4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
+}
+.cards h1:hover{
+    transform: scale(1.1);
+    transition: 250ms;
+}
+table{
+      background-color: white;
+   border-radius: 16px;
+    padding:20px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.container-viaggi{
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.container-viaggi h2{
+    font-size:2.2rem;
+}
+.container-contatti{
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.search h2{
+    font-size:2.2rem;
+    font-weight: bold;
+}
+@media (max-width: 530px) {
     .table-responsive {
         display: block;
         white-space: nowrap;
+
     }
-    
+
     table {
         width: auto;
         min-width: 398px;
+    }
+    .card {
+        padding: 5px 10px;
+    }
+    picture img {
+        box-shadow: 15px 15px;
+        width: 190px;
+    }
+
+    .profile-container {
+      margin-top: 30px;
+      font-size: 1.3rem;
+    }
+    .login-container {
+        padding: 20px;
+        max-width: 300px;
+        margin: 80px auto;
+        text-align: left;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }

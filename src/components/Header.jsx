@@ -10,12 +10,10 @@ export default function Header() {
                     <h1><span className="brand-name">Boo</span>Road</h1>
                 </Link>
                 <div>
-                    <Link to={"/home"}><button ><i class="fa-solid fa-house"></i>Home</button></Link>
+                    <Link to={"/home"}><button ><i class="fa-solid fa-house"></i> Home</button></Link>
                     <Link className={location.pathname === "/" ? "d-none" : ""} to={"/"}>
                         <button className="logout">
-                            <i className="fa-solid fa-user-xmark"></i>
-                            LogOut
-                        </button>
+                            <i className="fa-solid fa-user-xmark"></i> LogOut</button>
                     </Link>
                 </div>
             </nav>
