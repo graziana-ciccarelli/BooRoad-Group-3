@@ -1,13 +1,4 @@
 const viaggi = [
-    {
-        id: 1,
-        destinazione: "Roma",
-        img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=80",
-        data: "2025-05-15",
-        durata: "3 giorni",
-        guide: ["Alessandro Losciale", "Graziana Ciccarelli"],
-        partecipanti: 12
-      },
       {
         id: 2,
         destinazione: "Parigi",

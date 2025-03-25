@@ -29,7 +29,7 @@ export default function ContattiPage() {
                     onChange={handleSearch} 
                 />
             </div>
-            <table>
+            <table className="row">
                 <thead>
                     <tr>
                         <th>Foto</th>
