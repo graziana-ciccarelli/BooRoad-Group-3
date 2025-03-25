@@ -200,7 +200,7 @@ header button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100%;
 }
 
 .cards{
@@ -208,6 +208,7 @@ header button {
     flex-direction: column;
     gap: 30px;
     font-size: 1.2rem;
+    margin: 100px;
 }
 .card {
     background-color: white;
