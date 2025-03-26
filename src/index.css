@@ -186,6 +186,7 @@ picture img {
 .table-responsive {
     overflow-x: auto;
     width: 100%;
+    border-radius: 15px;
 }
 
 
@@ -255,6 +256,11 @@ table{
 .search h2{
     font-size:2.2rem;
     font-weight: bold;
+}
+.search{
+   min-width:350px;
+   max-width: 17%;
+    
 }
 @media (max-width: 530px) {
     .table-responsive {
